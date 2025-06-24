@@ -4,8 +4,8 @@ import { layoutContainer } from "./style.css";
 import "./globals.css";
 
 export const metadata = {
-	title: "StakeKit",
-	description: "StakeKit",
+	title: "Yield.xyz",
+	description: "Yield.xyz",
 };
 
 const ibmPlexSansCondensed = IBM_Plex_Sans_Condensed({
