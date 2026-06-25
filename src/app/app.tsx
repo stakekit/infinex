@@ -4,7 +4,7 @@ import { container } from "./style.css";
 import { Widget } from "./widget";
 import { HelpModals } from "./widget/help-modals";
 
-export default function Home() {
+export const App = () => {
 	return (
 		<Box className={container}>
 			<Header />
@@ -15,4 +15,4 @@ export default function Home() {
 			</Box>
 		</Box>
 	);
-}
+};
