@@ -34,6 +34,5 @@
 		"@vanilla-extract/vite-plugin": "^5.0.1",
 		"@vitejs/plugin-react": "^4.3.4",
 		"vite": "^6.0.7"
-	},
-	"packageManager": "pnpm@10.12.2"
+	}
 }
