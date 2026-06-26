@@ -1,57 +1,39 @@
-**This** is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Infinex
+
+A [Vite](https://vite.dev/) + React app embedding the [`@stakekit/widget`](https://www.npmjs.com/package/@stakekit/widget).
 
 ## Getting Started
 
-### Installation
-
-Use correct node version
+Tooling (Node + pnpm) is managed with [mise](https://mise.jdx.dev/).
 
 ```bash
-nvm use
+mise install
+pnpm install
 ```
 
-Install dependencies
+Copy the env template and fill in the values:
 
 ```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
+cp .env.example .env
 ```
 
 ### Run development app
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3002](http://localhost:3002) with your browser to see the result.
 
-### Run production app
-
-Create production build
+### Run production build
 
 ```bash
-npm run build
-# or
-yarn build
-# or
 pnpm build
-```
-
-Start the app
-
-```bash
-npm run start
-# or
-yarn start
-# or
 pnpm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tooling
+
+- **Build:** Vite (`vite.config.ts`)
+- **Lint/format:** Biome (`biome.json`) — `pnpm lint`, `pnpm lint:fix`
+- **Hosting:** AWS Amplify (`amplify.yml`)
